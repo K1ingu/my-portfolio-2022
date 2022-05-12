@@ -1,0 +1,143 @@
+@media (max-width: 1770px) {
+  body {
+    margin: 0px 320px;
+  }
+
+  .header__contact {
+    right: 320px;
+  }
+}
+
+@media (max-width: 1500px) {
+  body {
+    margin: 0px 220px;
+  }
+
+  .header__contact {
+    right: 220px;
+  }
+}
+
+@media (max-width: 1360px) {
+  body {
+    margin: 0px 120px;
+  }
+
+  .header__contact {
+    right: 120px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0px 50px;
+  }
+
+  .header__contact {
+    right: 50px;
+  }
+
+  .header__content-image {
+    display: none;
+  }
+
+  .header__content-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin: 0px 20px;
+  }
+
+  .header__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header__contact {
+    position: static;
+    margin-top: 25px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__social-media {
+    margin: 0px;
+  }
+
+  .header__content-h2 {
+    text-align: center;
+  }
+
+  .header__content-iconBG {
+    margin-right: 30px;
+  }
+
+  .about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about__avatar {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .about__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about__contact > a {
+    margin-top: 25px;
+    margin-right: 0px;
+  }
+
+  .offer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .offer__box:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .portfolio__row {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .portfolio__project,
+  .portfolio__project > img {
+    width: 350px;
+    height: 180px;
+  }
+
+  .portfolio__button {
+    margin: 120px -170px;
+  }
+
+  .portfolio__project:nth-child(2),
+  .portfolio__project:nth-child(4) {
+    margin-top: 50px;
+  }
+}
